@@ -34,7 +34,7 @@ const Experience = () => {
         <h2 className="text-4xl font-bold text-center mb-8">Experience</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {experiences.map((exp, index) => (
-            <div key={index} className="bg-gray-900 rounded-lg shadow-xl overflow-hidden shadow-md shadow-yellow-400 hover:scale-105 duration-500">
+            <div key={index} className="bg-gray-900 rounded-lg shadow-xl overflow-hidden hover:scale-105 duration-500">
               {/* <img
                 src={exp.image}
                 alt={exp.company}

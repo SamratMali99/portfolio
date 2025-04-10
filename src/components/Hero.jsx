@@ -22,7 +22,7 @@ const Hero = () => {
           {/* <p className="text-gray-500 py-4 max-w-md">
 
           </p> */}
-          <div className="mt-8 flex space-x-4">
+          <div className="mt-4 flex space-x-4">
               <a href="https://github.com/SamratMali99" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-indigo-400">
                 <Github size={24} />
               </a>
@@ -43,7 +43,7 @@ const Hero = () => {
         <div>
           {/* Image with Media Query */}
           <img src={heroimage} 
- alt="my profile" className="rounded-3xl mx-auto w-3/5 md:w-full shadow-md shadow-yellow-400 hover:scale-105 duration-500"/>
+ alt="my profile" className="rounded-3xl mx-8 my-4 w-3/5 md:w-full shadow-md shadow-yellow-400 hover:scale-105 duration-500"/>
         </div>
       </div>
     </div>

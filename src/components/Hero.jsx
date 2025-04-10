@@ -5,18 +5,18 @@ import heroimage from "../assets/heroimage.png";
 const Hero = () => {
   return (
     <section id="hero" className="pt-5 pb-4 lg:pt-0 bg-gradient-to-b from-black via-black to-gray-800 text-white">
-      <div name="home" className="h-fit w-full bg-gradient-to-b from-black via-black to-gray-800 pt-24 md:pt-60">  {/*add gradient from top to bottom}
+      <div name="home" className="h-fit w-full bg-gradient-to-b from-black via-black to-gray-800 pt-10 md:pt-24 ">  {/*add gradient from top to bottom}
 
       {/* Container for Home Page Words and Images */}
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         
         {/* Container for Title, Bio and Button */}
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full mx-10">
 
           {/* Title Text */}
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Computer Science Student
-          </h2>
+          <h5 className="text-1xl sm:text-7xl font-bold text-white">
+          Welcome..  
+          </h5>
 
           {/* Paragraph Bio */}
           {/* <p className="text-gray-500 py-4 max-w-md">
@@ -40,11 +40,14 @@ const Hero = () => {
         </div>
 
         {/* Image Container */}
-        <div>
-          {/* Image with Media Query */}
-          <img src={heroimage} 
- alt="my profile" className="rounded-3xl mx-8 my-4 w-3/5 md:w-full shadow-md shadow-yellow-400 hover:scale-105 duration-500"/>
+        <div className='p-5'>
+          <img
+            src={heroimage}
+            alt="my profile"
+            className="rounded-3xl mx-2 my-0 w-40 md:w-60 shadow-md shadow-yellow-400 hover:scale-105 duration-500"
+          />
         </div>
+
       </div>
     </div>
     </section>

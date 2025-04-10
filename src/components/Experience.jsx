@@ -8,7 +8,8 @@ const experiences = [
     period: 'Jan-2025 - March-2025',
     // description: 'Developed and maintained various client projects using React, Node.js, and AWS.',
     // image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=500',
-    responsibilities: ['Gained hands-on experience with Machine Learning algorithms.', 'Learned how to utilize Convolutional Neural Network (CNN) to enhance image classification models.'],
+    responsibilities: ['Gained hands-on experience with Machine Learning algorithms.', 
+                        'Learned how to utilize Convolutional Neural Network (CNN) to enhance image classification models.'],
     technologies: ['ML', 'CNN', 'Google Colab'],
     // website: 'https://example.com'
   },
@@ -19,7 +20,8 @@ const experiences = [
     // description: 'Created responsive web applications and implemented UI/UX designs.',
     // image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=500',
     responsibilities: ['One-month virtual task-driven internship.',
-                       'Worked with basic built-in Python libraries to generate passwords.',                           'Developed Calculator and Temperature Converter programs.'],
+                       'Worked with basic built-in Python libraries to generate passwords.',     
+                        'Developed Calculator and Temperature Converter programs.'],
     technologies: ['Python', 'PyCharm'],
     // website: 'https://example.com'
   }
@@ -49,7 +51,7 @@ const Experience = () => {
                 </div>
                 {/* <p className="text-gray-300 mb-4">{exp.description}</p> */}
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-gray-400 mb-2">Key Responsibilities:</h4>
+                  <h4 className="text-sm font-semibold text-gray-400 mb-2">Description:</h4>
                   <ul className="list-disc list-inside text-gray-300">
                     {exp.responsibilities.map((resp, idx) => (
                       <li key={idx}>{resp}</li>

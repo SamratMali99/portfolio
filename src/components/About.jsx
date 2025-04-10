@@ -7,7 +7,12 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-8">About Me</h2>
         <div className="prose prose-lg mx-auto">
           <p className="text-gray-300 leading-relaxed text-xl mt-20">
-            Hello, I'm Samrat Kumar Mali, a final-year Computer Science and Engineering student at ADCET, Ashta, with a strong passion for coding and problem-solving. Throughout my academic journey, I have built a solid foundation in various programming languages, frameworks, and tools. I have a strong understanding of Data Structures, Algorithms, and Object-Oriented Programming (OOP). Additionally, I possess strong problem-solving skills and am proficient in core subjects such as Operating Systems, Database Management Systems (DBMS). Additionally, I have developed essential soft skills such as communication, teamwork, and time management. My goal is to leverage my skills and knowledge to develop innovative and efficient solutions for real-world problems. I am constantly learning and exploring new technologies to stay up-to-date. Feel free to explore my portfolio and connect with me for potential collaborations or projects. 
+          Hello, I'm Samrat Kumar Mali, a final-year Computer Science and Engineering student at ADCET college, with a strong passion for coding and problem-solving. Throughout my academic journey, I have built a solid foundation in various programming languages, frameworks, and development tools. I have a strong grasp of Data Structures, Algorithms, and Object-Oriented Programming (OOP), and I am well-versed in core computer science subjects such as Operating Systems and Database Management Systems (DBMS).          </p>
+          <p className="text-gray-300 leading-relaxed text-xl">
+          In addition to my technical skills, I have developed essential soft skills including effective communication, teamwork, and time management. I am committed to leveraging my knowledge and abilities to create innovative and efficient solutions for real-world problems. I continuously seek opportunities to learn and stay updated with emerging technologies.
+          </p>
+          <p className="text-gray-300 leading-relaxed text-xl">
+          Feel free to explore my portfolio and connect with me for potential collaborations or projects.
           </p>
         </div>
       </div>

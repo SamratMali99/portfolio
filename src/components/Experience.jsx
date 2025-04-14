@@ -15,7 +15,7 @@ const experiences = [
   },
   {
     company: 'Technohacks Edutech',
-    position: 'Python programmer',
+    position: 'Python Programmer',
     period: 'Apr-2024 - May-2024',
     // description: 'Created responsive web applications and implemented UI/UX designs.',
     // image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=500',

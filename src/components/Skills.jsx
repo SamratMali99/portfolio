@@ -1,7 +1,7 @@
 import React from 'react';
 
 const skills = [
-  'C++', 'Python', 'SQL', 'HTML/CSS', 'Tailwind CSS', 'Git', 'React',
+  'C++', 'Python', 'SQL', 'Power BI', 'HTML/CSS', 'Tailwind CSS', 'Git', 'React',
   'MySQL', 'MongoDB', 'Core Java', 'Numpy', 'Pandas', 'Matplotlib', 'Machine Learning'
 ];
 const Style = [

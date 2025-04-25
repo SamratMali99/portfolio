@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, FileText  } from 'lucide-react';
-import heroimage from "../assets/heroimage.png";
+import heroimage from "../assets/heroimage.jpg";
 
 const Hero = () => {
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
               <a href="mailto:samratmali99@gmail.com" className="text-gray-300 hover:text-indigo-400">
                 <Mail size={24} />
               </a>
-              <a href="https://drive.google.com/file/d/1cwcrEiGTObYYW7AQ4beRZ5-KuBT12OiZ/view?usp=sharing"  target="_blank" className="text-gray-300 hover:text-indigo-400">
+              <a href="https://drive.google.com/file/d/1C2beKD-IS-7wc44u-pczEabKsyVO1_ic/view?usp=sharing"  target="_blank" className="text-gray-300 hover:text-indigo-400">
                 <FileText size={24} />
               </a>
             </div>

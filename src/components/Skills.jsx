@@ -1,8 +1,12 @@
 import React from 'react';
 
+// const skills = [
+//   'C++', 'Python', 'SQL', 'Power BI', 'HTML/CSS', 'Tailwind CSS', 'Git', 'React',
+//   'MySQL', 'MongoDB', 'Core Java', 'Numpy', 'Pandas', 'Matplotlib', 'Machine Learning'
+// ];
 const skills = [
-  'C++', 'Python', 'SQL', 'Power BI', 'HTML/CSS', 'Tailwind CSS', 'Git', 'React',
-  'MySQL', 'MongoDB', 'Core Java', 'Numpy', 'Pandas', 'Matplotlib', 'Machine Learning'
+  'Python', 'SQL', 'Power BI', 'Power Query', 'Excel', 'Pandas', 'NumPy', 'Matplotlib',
+  'JavaScript', 'MySQL', 'MongoDB', 'Git/GitHub', 'DAX', 'Data Cleaning', 'Data Visualization', 'Machine Learning'
 ];
 const Style = [
   'shadow-md shadow-orange-400', 'shadow-md shadow-pink-400', 'shadow-md shadow-white', 'shadow-md shadow-gray-400', 'shadow-md shadow-blue-600', 'shadow-md shadow-pink-400', 'shadow-md shadow-gray-400', 'shadow-md shadow-white', 'shadow-md shadow-orange-500', 'shadow-md shadow-blue-500', 'shadow-md shadow-yellow-500', 'shadow-md shadow-white', 'shadow-md shadow-blue-600', 'shadow-md shadow-gray-400'

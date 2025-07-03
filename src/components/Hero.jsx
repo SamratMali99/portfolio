@@ -32,7 +32,7 @@ const Hero = () => {
               <a href="mailto:samratmali99@gmail.com" className="text-gray-300 hover:text-indigo-400">
                 <Mail size={24} />
               </a>
-              <a href="https://drive.google.com/file/d/1C2beKD-IS-7wc44u-pczEabKsyVO1_ic/view?usp=sharing"  target="_blank" className="text-gray-300 hover:text-indigo-400">
+              <a href="https://drive.google.com/file/d/1LFCSXVDF_nIXUrRlj1GpI7pUSA_34yVi/view?usp=sharing"  target="_blank" className="text-gray-300 hover:text-indigo-400">
                 <FileText size={24} />
               </a>
             </div>

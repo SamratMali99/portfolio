@@ -3,16 +3,20 @@ import { Briefcase, ExternalLink } from 'lucide-react';
 
 const experiences = [
   {
-    company: 'AICTE Eduskills',
-    position: 'Google AI-ML Intern',
+    company: 'AICTE Eduskills ',
+    position: 'AI-ML Intern',
     period: 'Jan-2025 - March-2025',
     // description: 'Developed and maintained various client projects using React, Node.js, and AWS.',
     // image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=500',
-    responsibilities: ['Gained hands-on experience with Machine Learning algorithms.', 
-                        'Learned how to utilize Convolutional Neural Network (CNN) to enhance image classification models.'],
+    responsibilities: ['Acquired hands-on experience with core machine learning algorithms and their practical applications.', 
+                        'Implemented and fine-tuned Convolutional Neural Networks (CNNs) to improve the performance of image classification models.'],
     technologies: ['ML', 'CNN', 'Google Colab'],
     // website: 'https://example.com'
   },
+
+  
+
+
   {
     company: 'Technohacks Edutech',
     position: 'Python Programmer',
